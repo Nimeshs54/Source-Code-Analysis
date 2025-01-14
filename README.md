@@ -1,4 +1,4 @@
-# End-to-end-Source-Code-Analysis-Generative-AI
+# Source-Code-Analysis
 
 # How to run?
 ### STEPS:
