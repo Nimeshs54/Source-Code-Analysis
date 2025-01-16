@@ -1,53 +1,75 @@
-# Source-Code-Analysis
+# Source Code Analysis
 
-# How to run?
-### STEPS:
+A project designed to analyze and process source code efficiently using modern AI tools.
 
-Clone the repository
+## 🚀 How to Run?
+
+Follow these steps to set up and run the project on your local machine.
+
+### **Step 1: Clone the Repository**
+
+Clone the repository to your local machine:
 
 ```bash
-Project repo: https://github.com/Nimeshs54/Source-Code-Analysis.git
+# Clone the repository
+git clone https://github.com/Nimeshs54/Source-Code-Analysis.git
+cd Source-Code-Analysis
 ```
-### STEP 01- Create a conda environment after opening the repository
+
+### **Step 2: Create a Conda Environment**
+
+Set up a virtual environment using Conda:
 
 ```bash
+# Create a Conda environment
 conda create -n llmapp python=3.10 -y
-```
 
-```bash
+# Activate the environment
 conda activate llmapp
 ```
 
+### **Step 3: Install Dependencies**
 
-### STEP 02- install the requirements
+Install the required Python packages:
+
 ```bash
 pip install -r requirements.txt
 ```
 
-### Create a `.env` file in the root directory and add your OPENAI_API_KEY credentials as follows:
+### **Step 4: Configure Environment Variables**
+
+Create a `.env` file in the root directory and add your OpenAI API key:
 
 ```ini
-OPENAI_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+OPENAI_API_KEY="your_openai_api_key"
 ```
 
+Replace `your_openai_api_key` with your actual OpenAI API key.
+
+### **Step 5: Run the Application**
+
+Start the application:
 
 ```bash
-# Finally run the following command
 python app.py
 ```
 
-Now,
+### **Step 6: Access the Application**
+
+Open your browser and go to:
+
 ```bash
-open up localhost:
+http://localhost:5000
 ```
 
+## 🛠️ Tech Stack
 
-### Techstack Used:
+This project utilizes the following technologies:
 
-- Python
-- LangChain
-- Flask
-- OpenAI
-- GPT 3
-- ChoromaDB
+- **Python**: Core programming language for development.
+- **LangChain**: Framework for building language model-powered applications.
+- **Flask**: Lightweight web application framework.
+- **OpenAI**: For GPT-3 capabilities.
+- **ChromaDB**: Vector database for efficient data retrieval.
 
+---
